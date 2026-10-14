@@ -1,0 +1,17 @@
+/* Penyesuaian kecil di atas template AdminLTE */
+.login-box { width: 380px; max-width: 94vw; }
+.select2-container { width: 100% !important; }
+.select2-container--bootstrap-5 .select2-dropdown { z-index: 2000; }
+table.dataTable td.text-end, table.dataTable th.text-end { text-align: right; }
+.stat-card .stat-icon { font-size: 2rem; opacity: .35; }
+.stat-card .stat-value { font-size: 1.6rem; font-weight: 600; line-height: 1.2; }
+.chart-box { position: relative; height: 280px; }
+/* Kasir */
+.pos-products { max-height: calc(100vh - 290px); overflow-y: auto; }
+.pos-product { cursor: pointer; transition: transform .08s, box-shadow .08s; height: 100%; }
+.pos-product:hover { transform: translateY(-2px); box-shadow: 0 .25rem .75rem rgba(0,0,0,.15); }
+.pos-product.out { opacity: .5; cursor: not-allowed; }
+.pos-cart { max-height: 300px; overflow-y: auto; }
+.pos-cart .qty-input { width: 64px; text-align: center; }
+.pos-total { font-size: 2rem; font-weight: 700; }
+@media (max-width: 991.98px) { .pos-products { max-height: 360px; } }
